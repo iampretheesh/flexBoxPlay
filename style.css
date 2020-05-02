@@ -1,0 +1,157 @@
+@font-face {
+
+												font-family: handcrafted;
+												src:url('../IBMPlexMono-Thin.ttf');
+
+
+}
+
+									
+
+body{
+
+											font-family: handcrafted;
+										    font-size: 3vw;
+										    font-weight: bolder;
+										    color: pink;
+										    background-color: #000312;
+										    padding: 0;
+										    margin: 0;
+									
+}
+
+
+
+.main {
+
+
+	display: grid;
+    margin-left: 5%;
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 50vh;
+    grid-gap: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.child {
+
+
+	display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    width: 100%;
+    border-bottom: double 1vh;
+}
+
+
+#flexBox {
+
+
+    display: flex;
+    height: 100%;
+
+    width: 100%;
+    border: solid;
+
+
+}
+
+
+#item {
+
+		height: 30%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+}
+
+
+#playBox{
+
+
+	display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 10vh;
+    grid-gap: 1vh;
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#play {
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5vh 5vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vh;
+    border: solid;
+    cursor: pointer;
+}
+
+select {
+
+	width: 100%;
+    height: 100%;
+    background-color: #000312;
+    color: pink;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+#play1,#play2{
+
+
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		background-color: #000312;
+    	width: 100%;
+   	 	height: 100%;		
+}
+
+
+.item1{
+
+	flex-basis: auto;
+}
+
+.item2,.item10{
+
+	flex-basis: auto;
+}
+
+.item3{
+
+
+	flex-basis: auto;
+}
+
+.item4,.item9 {
+
+	flex-basis: auto;
+}
+
+
+.item6,.item7,.item8{
+
+
+	flex-basis: auto;
+}
+
+#space{
+
+	flex-basis: 25px;
+	border-bottom: solid;
+}
