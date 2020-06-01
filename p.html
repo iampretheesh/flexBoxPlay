@@ -21,14 +21,35 @@
   						alert('readyPlayOk');
 
 
-													
+													$.ajax({
+																       url : './ajax.php',
+																       type : 'POST',
+																       data: {'show': 'showThisInfo'},
+
+																       dataType: 'html',  
+																       success : function(data) {
+																       								console.log(data);
+
+																       								alert(data);
+
+
+																       },
+																		error: function( jqXHR, textStatus, errorThrown,) {
+
+
+																				console.log('error:'+textStatus+errorThrown);
+
+
+																		}
+													});
+
 
   			});
 
 
   </script>
 
-
+	
 </head>
 <body>
 
