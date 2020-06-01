@@ -3,6 +3,6 @@
 
 $show = $_POST['show'];
 
-echo $show;
+echo "Ajx:".$show;
 
 ?>
